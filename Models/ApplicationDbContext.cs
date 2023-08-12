@@ -4,7 +4,7 @@ namespace CoreEntityFramworkCodeFirstApp.Models
 {
     public class ApplicationDbContext: DbContext
     {
-        public DbSet<Customer> Customer { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

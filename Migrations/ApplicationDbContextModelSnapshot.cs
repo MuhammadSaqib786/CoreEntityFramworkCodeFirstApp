@@ -37,7 +37,7 @@ namespace CoreEntityFramworkCodeFirstApp.Migrations
 
                     b.HasKey("CustomerId");
 
-                    b.ToTable("Customer");
+                    b.ToTable("Customers");
                 });
 #pragma warning restore 612, 618
         }
